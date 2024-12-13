@@ -1,0 +1,16 @@
+package day1211;
+
+public class Ex8_1Argument {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("외부에서 값 읽어오기");
+		String name=args[0];
+		String city=args[1];
+		int birth year=Integer.parseInt(args[2]);
+		int age=Integer.parseInt(args[3]);
+		System.out.println("출생연도: "+args[2]+"나이"+args[3]);
+
+	}
+
+}

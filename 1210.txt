@@ -1,0 +1,45 @@
+1210
+
+
+jdk 설치 주소
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+＃mac에 해당하는 jdk설치
+   /mac 이클립스 실행 어려움
+
+
+[구글시트]
+https://docs.google.com/document/d/1LKdCOiHRQAv18fBddKvMbq-m79SKbKET7uNdHOw4Psk/edit?tab=t.0
+
+[참고용]
+D:\naver1210\study
+Q. exe 파일 실행 후 -> cmd 창에서 버전 확인
+*cmd 창에서 전체삭제 'cls'
+
+A. 'java -version' 입력 후 실행 확인
+
+-메모장을 통해 main정도는 만들  있도록,,
+-> 인코딩(한글 가능하게): ANSI
+
+-리눅스 ls
+-윈도우 dir (파일명만 dir/w)
+-자바(컴파일 언어->오류잡기 편함, 인터프리터방식보다)
+-개발자 글꼴 오류잡기 위해
+  0 or O 구분 가능한 걸로 설정
+
+[컴파일]
+Hello.java 파일이 있는 곳에서
+javac Hello.java // 컴파일
+오류가 없을경우,  Hello java가 생김
+java Hello // 출력
+
+
+
+
+[이클립스]
+- 설치~
+- 글꼴 다운 후 변경
+   : @글꼴명 (세로로 써짐)
+Bitstream Vera Sans Mono -> 주사용 글끌
+
+[연습용 사이트]
+https://www.w3schools.com/java/java_variables.asp

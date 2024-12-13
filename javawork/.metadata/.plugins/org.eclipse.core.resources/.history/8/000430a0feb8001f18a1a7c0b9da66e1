@@ -1,0 +1,34 @@
+package day1213;
+
+import java.util.Scanner;
+
+public class Ex8While {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 숫자 n을 입력하면 1~n까지의 합계 sum을 구해서 출력하시오
+		 * 
+		 * 예) 100입력시,
+		 * 1~100까지의 합계는 5050입니다(printf,while문 사용)
+		 */
+		
+		Scanner sc=new Scanner(System.in);
+		int n,sum;
+		
+		while(true) {
+			System.out.println("점수입력");
+			n=sc.nextInt();
+			
+			if
+			
+			if (n>=1 || n<=100)
+				break;
+			sum+=n;
+		}
+		
+		System.out.printf("합계는 %d 입니다\n",sum);
+
+	}
+
+}

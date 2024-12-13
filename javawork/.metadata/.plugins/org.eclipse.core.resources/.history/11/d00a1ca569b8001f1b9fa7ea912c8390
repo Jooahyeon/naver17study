@@ -1,0 +1,31 @@
+package day1212;
+
+public class ExTT {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a,b,m,n;
+		a=b=5;
+		m=++a; 
+		n=b++; 
+		System.out.printf("a=%d,b=%d,m=%d,n=%d\n",a,b,m,n);
+		
+		a=b=m=n=5;
+		m=a++*++b; 
+		System.out.printf("a=%d,b=%d,m=%d,n=%d\n",a,b,m,n);
+		
+		n=a++ + ++b;
+		System.out.printf("a=%d,b=%d,m=%d,n=%d\n",a,b,m,n);
+		
+		a=5;
+		System.out.println(a++);
+		System.out.println(++a);
+		
+		a=b=m=n=5;
+		a*=b-- -++n*3; 
+		System.out.printf("a=%d,b=%d,m=%d,n=%d\n",a,b,m,n);
+		
+	}
+
+}

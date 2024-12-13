@@ -1,0 +1,16 @@
+package day1211;
+
+public class Ex2_1DataType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 묵시적 형변환
+		int kor = 50;
+		int eng = 63;
+		System.out.println("합계 : "+kor+eng); //Spring형으로 출력
+		System.out.println("합계 : "+(kor+eng));
+
+	}
+
+}
