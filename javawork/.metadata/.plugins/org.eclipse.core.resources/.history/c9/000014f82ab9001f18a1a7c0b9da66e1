@@ -14,18 +14,16 @@ public class Ex12For {
 		 */
 		
 		Scanner sc=new Scanner(System.in);
-		
-		int n,start,sum=0;
-		
-		System.out.println("숫자n 입력");
-		n=sc.nextInt();
-		
-		for(n=0;n>=1;n++) {
-			start+=n;
-			sum = start++;
+		int sum;
+		for(int n=1;n>=1;n++) {
+			System.out.print(n+"  ");
+			if(n==6)
+				break;
+			sum=n++;
 		}
-		System.out.println("1~"+n+"까지의 합계:"+sum);
+	
 		
+
 	}
 
 }

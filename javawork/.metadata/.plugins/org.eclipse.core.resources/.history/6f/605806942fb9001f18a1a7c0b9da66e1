@@ -1,0 +1,33 @@
+package day1213;
+
+import java.util.Scanner;
+
+public class Ex13For {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 문제 2
+		 * 5명의 나이를 입력 후
+		 * 40세 이상과 40세 미만이 각각 몇명인지 출력하고
+		 * 평균 나이도 같이 출력하시오
+		 * (for문 사용) 합계도 구해야 출력 가능함
+		 */
+
+		Scanner sc=new Scanner(System.in);
+		int a,b,c,d,e;
+		System.out.println("a 나이 입력");
+		a=sc.nextInt();
+		System.out.println("b 나이 입력");
+		b=sc.nextInt();
+		System.out.println("c 나이 입력");
+		c=sc.nextInt();
+		System.out.println("d 나이 입력");
+		d=sc.nextInt();
+		System.out.println("e 나이 입력");
+		e=sc.nextInt();
+		
+		
+	}
+
+}
