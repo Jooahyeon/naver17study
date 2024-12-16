@@ -16,13 +16,30 @@ public class Ex13For {
 
 		Scanner sc=new Scanner(System.in);
 		
-		int n,count=0,sum=0;
-		for (n)
-		System.out.println("a 나이 입력");
-		a=sc.nextInt();
+		int count1 = 0, count2 = 0, sum = 0, age;
+		double avg;
 		
+		for (int i=1;i<=5;i++) {
+			System.out.println(i+"번째 나이 입력");
+			age = sc.nextInt();
+			//0~100세를 벗어나는 경우 다시 입력(인원수 제외)
+			//continue : for문은 i++로 이동
+			if(age<0 || age>100) {
+				System.out.println("다시 입력하세요");
+				i--;
+				continue;
+			}
+			sum+=age;
+			if(i>=40)
+				count1++;
+			else 
+				count2++;
+		}
+		avg=(double)sum/5;
 		
-		for(i=0;i>=40)
+		System.out.println("40세 이상 인원수 : " + count1);
+		System.out.println("40세 미만 인원수 : " + count2);
+		System.out.println("평균 나이 : " + avg);
 		
 	}
 

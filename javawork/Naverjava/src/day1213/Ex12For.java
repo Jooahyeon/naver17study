@@ -10,22 +10,19 @@ public class Ex12For {
 		 * 문제 1
 		 * 숫자 n을 입력하면 1부터 n까지의 합계를 구하시오.
 		 * (for문을 사용할 것)
-		 * 
 		 */
 		
 		Scanner sc=new Scanner(System.in);
 		
-		int n,start,sum=0;
+		int n, sum = 0;
 		
-		System.out.println("숫자n 입력");
+		System.out.println("숫자 n 입력");
 		n=sc.nextInt();
 		
-		for(n=0;n>=1;n++) {
-			start+=n;
-			sum = start++;
+		for(int i = 1;i<=n;i++) {
+			
+			sum += i;
 		}
-		System.out.println("1~"+n+"까지의 합계:"+sum);
-		
+		System.out.println("1부터 "+n+" 까지의 합계:"+sum);
 	}
-
 }

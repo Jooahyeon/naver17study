@@ -26,14 +26,14 @@ public class Ex5While {
 		while(true)
 			// true로 작성시 무조건 실행 but, break를 꼭 붙일 것
 		{
-			System.out.printf("%3d",a++); //전치
+			System.out.printf("%3d",a++); //후치
 			if(a>10)
 				break;
 		}
 		System.out.println(); // (me)왜 먼저 나오지?
 		a=0;
 		while(a<10) { //while 뒤 실수로 ; 적으면 무한루프 돈다!
-			System.out.printf("%3d",++a); //후치
+			System.out.printf("%3d",++a); //전치
 		}
 		System.out.println();
 		a=1;

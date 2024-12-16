@@ -4,7 +4,7 @@ public class Ex11For {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//print일때 int->char사용하려면 형변환 필요
+		//print일때 int->char사용하려면 형변환 필요 -> 아스키코드 활용
 		System.out.println("알파벳 반복해서 출력하기");
 		for(int i=65;i<=90;i++)
 			System.out.print((char)i);

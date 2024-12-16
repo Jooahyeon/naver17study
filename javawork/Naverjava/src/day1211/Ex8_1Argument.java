@@ -7,8 +7,8 @@ public class Ex8_1Argument {
 		System.out.println("외부에서 값 읽어오기");
 		String name=args[0];
 		String city=args[1];
-		int birthyear=Integer.parseInt(args[2]);
-		int age=2024-birthyear;
+		int birthyear = Integer.parseInt(args[2]);
+		int age=2024-birthyear; //계산이 필요한 경우(정수형) Integer.parseInt사용
 		
 		int kor=Integer.parseInt(args[3]);
 		int eng=Integer.parseInt(args[4]);
