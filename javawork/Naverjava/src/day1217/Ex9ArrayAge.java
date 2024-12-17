@@ -17,7 +17,19 @@ public class Ex9ArrayAge {
 		 * 10대 : 1명
 		 * 20대 : 3명 -  -  - 50대까지
 		 */
-
+		
+		int []age = new int[5];
+		
+		for(int i=0;i<datas.length;i++)
+		{
+			//연령별 인원수 구하기
+			//10대일 경우 0번지 증가. 20대일경우 1번지증가..
+			age[datas[i]/10-1]++;			
+		} 
+		for(int i=0;i<age.length;i++)
+		{
+			System.out.println((i+1)*10+"대:"+age[i]+"명");
+		}
 	}
 
 }
