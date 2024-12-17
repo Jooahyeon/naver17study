@@ -41,7 +41,5 @@ public class Ex9LoopExam {
 			System.out.println();
 		}
 		System.out.println("=".repeat(15));
-
 	}
-
 }

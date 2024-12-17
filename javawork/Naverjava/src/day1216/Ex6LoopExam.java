@@ -34,6 +34,8 @@ public class Ex6LoopExam {
 //			else if (ch>='0' && ch<='9')
 //				numberCount++;
 //			
+		
+		//아스키코드 활용
 //				if(ch>=65 && ch<=90)
 //			    	upperCount++;
 //				else if (ch>=97 && ch<=122)
