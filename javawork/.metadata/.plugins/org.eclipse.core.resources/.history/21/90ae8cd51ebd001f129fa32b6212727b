@@ -1,0 +1,21 @@
+package day1218;
+
+public class Car2 {
+	
+	Strinf model;
+	int speed;
+	boolean start;
+	Tire tire;
+	
+}
+public class Book217 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//초기값 예제
+		
+		
+
+	}
+
+}

@@ -18,7 +18,7 @@ public class Ex8ArrayAlpha {
 		int []alpha = new int[26];
 		System.out.println("영어 문장을 입력하세요");
 		message=sc.nextLine();
-		
+
 		//글자수만큼 반복
 		for(int i=0;i<message.length();i++)
 		{
@@ -33,13 +33,13 @@ public class Ex8ArrayAlpha {
 		//출력
 		for(int i=0;i<alpha.length;i++)
 		{
-		//	System.out.printf("%c:%d개\t",'A'+i,alpha[i]);
+			//	System.out.printf("%c:%d개\t",'A'+i,alpha[i]);
 			System.out.print((char)('A'+i)+":"+alpha[i]+"개");
 			//한줄에 4개씩 출력
 			if((i+1)%4==0) //0번지에서 라인 안넘어가게 하기 위해 (i+1)추가
 				System.out.println();
 		}
-		
+
 	}
 
 }

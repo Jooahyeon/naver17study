@@ -1,0 +1,37 @@
+package day1218;
+
+class Orange
+{
+	public static final String MESSAGE = "HAPPY"; //final상수만 접근 가능
+			
+	private String name; 
+	private String age;
+	//얘네는 초기값 null
+	public void showData()
+	{
+		//일반 멤버 메소드는 this라는 인스턴스 변수를 가지고 있다
+		//static 멤버 메소드에는 this가 없음
+		//그래서 this.name 이런식으로 접근 가능(this는 경우에 따라 생략 가능)
+		System.out.println("이름:" +this.name+",나이:"+this.age);
+	}
+	
+}
+
+public class Ex8Object {
+			
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Orange.MESSAGE); //상수 값을 가져오는 것만 가능
+		//메인 안에서 값을 안주면 출력 자체가 오류
+		
+		Orange orange = new Orange();
+//		System.out.println(orange.name); //오류
+		//영역이 없다구 함.
+		//private 변수는 직접 접근 불가
+		orange.showData();
+		
+
+
+	}
+
+}
