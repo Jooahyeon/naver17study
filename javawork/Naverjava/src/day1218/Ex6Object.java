@@ -1,4 +1,4 @@
-package day1218;
+ package day1218;
 
 public class Ex6Object {
 	//멤버변수나 상수를 선언하는 영역
